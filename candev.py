@@ -16,7 +16,7 @@ def extract_csv(src_path):
     
     year_list = [str(i) for i in range(2018,2050)]
     
-    doc = convert_from_path(src_path)
+    doc = convert_from_path(src_path,poppler_path=r'\app\vendor\poppler-0.68.0\bin')
     a = 0
     
     try:
