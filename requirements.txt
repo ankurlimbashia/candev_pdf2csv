@@ -20,4 +20,4 @@ tqdm==4.62.3
 pdf2image==1.16.0
 opencv-python-headless>=4.5
 gunicorn==20.1.0
-python-poppler==0.2.2
+poppler-utils==0.1.0
